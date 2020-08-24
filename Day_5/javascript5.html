@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script src="5.js"></script>
+</head>
+
+<body>
+
+    <div>someone has posted something !!</div>
+
+    <div>
+        <input type="text" id="inputId" placeholder="user comment" />
+    </div>
+
+    <div>
+        <button onclick="likeHere()" id="btnId">Like 1</button>
+        <button onclick="commentHere()" id="commentId">Comment Now</button>
+    </div>
+
+    <div id="commentBox">
+        <div style="display: flex; justify-content: space-between; visibility: hidden;" id="refComment">
+            <div>Sample Comment</div>
+            <button onclick="deleteComment(this)">DELETE</button>
+        </div>
+    </div>
+</body>
+
+</html>
